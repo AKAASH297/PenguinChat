@@ -1,0 +1,7 @@
+# Ubuntu Linux Guide – dependencies
+
+requests           
+beautifulsoup4      
+sentence-transformers 
+chromadb    
+openai
