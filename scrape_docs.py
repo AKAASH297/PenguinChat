@@ -1,6 +1,4 @@
 """
-scrape_docs.py
-
 Downloads Ubuntu Desktop documentation pages from the web
 and saves them as plain text files into the ./docs/ folder.
 """
