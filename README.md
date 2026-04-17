@@ -123,7 +123,14 @@ python build_index.py
 ---
 
 ## Example
+
+### Scraping
 ![Scrape Example](Scrape_demo.png)
+
+### Indexing
 ![Index Example](Index_demo.png)
+
+### Start Chat
 ![Chat Example](chat_demo.png)
+
 ![Example](Example_demo.png)
