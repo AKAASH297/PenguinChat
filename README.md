@@ -10,7 +10,15 @@ Fully private and runs on your machine.
 
 ## How it works
 
-
+```
+Ubuntu docs website
+       ↓
+./docs/ folder
+       ↓
+./chroma_db/ (local vector database)
+       ↓  
+Your terminal  ← you chat here!
+```
 
 ---
 
@@ -111,3 +119,11 @@ Just run both steps again – the index will be rebuilt fresh:
 python scrape_docs.py
 python build_index.py
 ```
+
+---
+
+## Example
+![Scrape Example](Scrape_demo.png)
+![Index Example](Index_demo.png)
+![Chat Example](chat_demo.png)
+![Example](Example_demo.png)
