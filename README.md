@@ -1,4 +1,4 @@
-# 🐧 Ubuntu Linux Guide
+# Ubuntu Linux Guide
 
 A beginner-friendly CLI chatbot that answers questions about Ubuntu using 
 **real Ubuntu documentation** and a **local LLM** you're already running.
@@ -10,15 +10,7 @@ Fully private and runs on your machine.
 
 ## How it works
 
-```
-Ubuntu docs website
-       ↓  (scrape_docs.py downloads pages as .txt)
-  ./docs/ folder
-       ↓  (build_index.py embeds them with HuggingFace + stores in ChromaDB)
-  ./chroma_db/ (local vector database)
-       ↓  (chat.py searches DB + asks your local LLM)
-  Your terminal  ← you chat here!
-```
+
 
 ---
 
@@ -119,7 +111,3 @@ Just run both steps again – the index will be rebuilt fresh:
 python scrape_docs.py
 python build_index.py
 ```
-
----
-
-*Built as a resume project to demonstrate RAG, local LLMs, and HuggingFace embeddings.*
