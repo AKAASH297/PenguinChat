@@ -58,7 +58,6 @@ def load_resources(embed_model_name: str):
 def search_docs(query: str, embedder, collection, top_k: int) -> str:
     """
     Embed the user's question and find the most relevant doc chunks.
-    Returns them as a single string to put in the LLM prompt.
     """
     query_vector = embedder.encode(query).tolist()
     results = collection.query(
