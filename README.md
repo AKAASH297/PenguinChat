@@ -1,4 +1,4 @@
-# Ubuntu Linux Guide
+# RAG based Linux Helper Chatbot
 
 A beginner-friendly CLI chatbot that answers questions about Ubuntu using 
 **real Ubuntu documentation** and a **local LLM** you're already running.
